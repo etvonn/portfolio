@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="./style.css">
+<style>
+    .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    }
+    .project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <header>
+            <nav>
+            <ul>
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./ethics.html">Ethics</a></li>
+            <li><a href="./reflection.html">Cumulative Reflection</a></li>
+            <li><a href="./genref.html">General Education Reflection</a></li>
+
+            
+            </ul>
+            </nav>
+            </header>
+           
+            
+    </header>
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Senior Design: MicroCART</h3>
+           <p>For my senior design project, my team and I are continuing the development of a longtime project at the Iowa State Electrical and Computer Engineering Department, MicroCART, a drone platform to enable research in control systems. We are still very early into the project,
+            so much of it is very loosely defined, but the current plan is to modify the existing drone to use a heterogeneous microcontroller to enable having a single core running firmware for flight control and another running an operating system to allow for higher power computing tasks
+            with high speed communication between the two parts of the microcontroller. So far, I've been working on the MP-4 lab from CPRE 4880 to get a better understanding of the project as a whole and have been researching heterogeneous microcontroller modules to determine what fits our needs.
+
+           </p>
+           </div>
+
+           <div class="project">
+            <h3>ChipForge</h3>
+           <p>
+            During my junior year, I worked with the founding members of the ChipForge student organization to help get it off of the ground and get some initial projects fabricated. For my personal project, I worked with a freshman, teaching him the basics of digital logic and writing RTL to
+            develop a simple IO module to allow us to ouput the contents of a register to a seven segment display. This project was my first experience writing RTL for fabrication rather than for an FPGA, which taught me some of the differences in design considerations when designing to limit
+            hardware size rather than just needing to fit on an FPGA. I worked in depth with the founders to learn more about the process and they were my primary mentors throughout the project.
+           </p>
+           </div>
+        <div class="project">
+        <img src= "./project1.png" alt="Project 1" width="300" height="auto">
+        <img src= "./p16packcad.png" alt="Battry Pack" width="300" height="auto">
+
+        <h3>PRISUM Solar Car: Battery Protection System</h3>
+        <p>I spent a few semesters managing PRISUM Solar Car's battery protection system,
+        which involves a group of sensor nodes that gather voltage and temperature data from
+        a lithium ion battery pack, which are designed to report unacceptable voltage and temperature 
+        measurements and ensure that all of the battery modules remain balanced. It also involves 
+        It also includes a controller that is in charge of ensuring that the battey pack remains 
+        disconnected until safe conditions are verified and disconnecting it when unsafe conditions are detected. This project was my introduction
+        to electrical CAD, essentially developing a safety-critical system for monitoring an electric vehicle battery. During this project, I learned a lot about battery management systems, PCB design, and working as a team to develop a complex system. Most of what I learned through my work on the team
+        was through mentorship from the team leaders of the time as well as former team members who had worked on the battery protection system before me.
+        </p>
+        </div>
+
+        <div class="project">
+         <h3>NSF Undergraduate Research</h3>
+        <p>I spent the second semester my sophomore year developing a PCB that would be used to monitor as well as emulate RF harvesting conditions for Dr. Duwe's Batteryless Intermittent Systems research group, which involves
+            monitoring both gathering the harvesting conditions and being able to replay them for the boost converter as well as monitoring the load so that the output of the boost converter can be emulated for ease
+            of programming and debugging. Through this project, I learned a lot about energy harvesting and low power electronics as well as became familiar with working in a research environment. To do this, I worked closely with one of Dr. Duwe's PhD students and
+            studied a number of papers on other energy harvesting systems to determine my approach.
+        </p>
+        </div>
+        </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Eli von Nordheim</p>
+</footer>
+
+
+</body>
+</html>
